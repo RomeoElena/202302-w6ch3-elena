@@ -6,10 +6,10 @@ export function Actions() {
   return (
     <div className="actions">
       <span className="number">{numbers}</span>
-      <a href="#" className="call">
+      <a href=".#" className="call">
         Call
       </a>
-      <a href="#" className="hang active">
+      <a href=".#" className="hang active">
         Hang
       </a>
     </div>
