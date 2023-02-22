@@ -6,7 +6,7 @@ export function App() {
   return (
     <div className="container">
       <Display></Display>
-      <main className="phonne">
+      <main className="phone">
         <Keyboard></Keyboard>
         <Actions></Actions>
       </main>
