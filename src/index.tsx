@@ -3,9 +3,9 @@ import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import { store } from "./core/store/store";
 import "./index.css";
-import App from "./core/components/app/App";
+import { App } from "./core/components/app/App";
 
-const container = document.getElementById("root")!;
+const container = document.getElementById(".container")!;
 const root = createRoot(container);
 
 root.render(
